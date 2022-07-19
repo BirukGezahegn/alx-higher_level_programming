@@ -1,27 +1,11 @@
 #!/usr/bin/python3
-
-"""Define a class Square."""
-
-
-class Square:
-    """Represent a square."""
-
-    def __init__(self, size):
-        """Initialize a new Square.
-        Args:
-            size (int): The size of the new square.
-        """
-#!/usr/bin/python3
-
-"""Define a class Square."""
+"""
+This module defines a suqare based on task 0 (0-square.py)
+"""
 
 
 class Square:
-    """Represent a square."""
-
+    """ Square class """
     def __init__(self, size):
-        """Initialize a new Square.
-        Args:
-            size (int): The size of the new square.
-        """
+        """ Class initialization """
         self.__size = size
