@@ -1,11 +1,2 @@
--- displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
-
-USE hbtn_0c_0;
-SELECT city, AVG(value) AS avg_temp
-FROM temperatures
-GROUP BY city
-ORDER BY avg_temp DESC;
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
+-- displays the average temperature 
+SELECT city,AVG(value) as avg_temp FROM temperatures GROUP BY city ORDER BY avg_temp DESC;
